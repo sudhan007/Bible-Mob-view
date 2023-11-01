@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.setbody
+{
+background-color: #121212;
+min-height: 100vh;
+}
+.login
+{
+    font-family: 'Poppins', sans-serif;
+    color:#FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+}
+.loginquote
+{
+    color: rgba(255, 255, 255, 0.39);
+
+}
+.lable
+{
+    color: 
+    rgba(255, 255, 255, 1);
+    font-family: 'Poppins', sans-serif;
+font-size: 13px;
+text-decoration: none;
+}
+.input1
+{
+    font-family: 'Poppins', sans-serif;
+   width: 100%;
+    padding: 10px 30px;
+    border: 0;
+    background-color: rgba(114, 114, 114, 0.1);
+    border-radius: 4px;
+    color: white;
+
+}
+.input1:focus
+{
+    outline: none;
+}
+.screen1icons
+{
+    position: relative;
+    top: 36px;
+    left: 13px;
+}
+.inputsub1
+{
+    font-family: 'poppins',sans-serif;
+    font-weight: 500;
+        background-color: #720272;
+        border-radius:40px ;
+        color:  #FFFFFF;
+}
+/*  */
+
+::placeholder
+{
+    font-size: 12px
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+a:hover,:link,:visited:active
+{
+    color: white;
+    text-decoration: none;
+}
+.topping
+{
+    margin-top: -10px;
+}
+.verifyotp
+{
+    border: 1px solid 
+    rgba(255, 193, 255, 0.36);
+    width: 36px;
+    height: 36px;
+    background-color: 
+    rgba(114, 2, 114, 0.1);
+    color: 
+    rgba(255, 193, 255, 1);
+    text-align: center;
+}

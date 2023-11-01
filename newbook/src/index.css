@@ -1,0 +1,585 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'ff';
+  src: url('./NotoSansTamil-VariableFont_wdth,wght.ttf');
+}
+
+
+body {
+  overflow-x: hidden;
+  font-family: 'ff' !important;
+}
+
+/* #root {
+  overflow-y: hidden;
+} */
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+#bible-scroll::-webkit-scrollbar {
+  width: 0px;
+  height: 4px;
+  padding-top: 20px;
+}
+.ql-align-center{
+  text-align: center !important;
+}
+#bible-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+#bible-scroll::-webkit-scrollbar-thumb {
+  /* background: rgb(99, 12, 99); */
+  border-radius: 20px;
+}
+
+.ql-toolbar.ql-snow {
+  position: sticky;
+}
+
+.ql-container.ql-snow {
+    height: 800px;
+    overflow: hidden;
+}
+
+.hide-scroll::-webkit-scrollbar {
+  width: 0px;
+}
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+}
+
+.abc {
+
+  font-family: Bakbak One;
+  color: #F4F4F4;
+  margin-right: 30px;
+}
+
+
+cd {
+
+  display: flex;
+  flex-direction: row;
+}
+
+#bn {
+  background-color: #7D017D;
+  color: white;
+  width: 140px;
+  font-family: Source Sans 3;
+  font-weight: bold;
+}
+
+.dc {
+
+  background-color: #7D017D;
+  color: white;
+  border: 0px;
+  padding: 7px 30px;
+  margin-top: 9px;
+  border-radius: 5px;
+}
+
+#er {
+
+  font-family: Anek Tamil;
+  font-weight: bold;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+
+}
+
+#nb {
+
+  padding-top: 50px;
+  height: 78%;
+  width: 90%;
+}
+
+#nh {
+  width: 250%;
+
+}
+
+
+
+#er {
+  font-size: 30px;
+}
+
+#ms {
+  margin-top: 90px;
+}
+
+#cd {
+  position: relative;
+  top: -60px;
+  left: 25px;
+  width: 97%;
+  height: 60px;
+  background-color: #7D017D;
+  color: white;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+
+}
+
+.yy {
+
+  font-family: Source Sans 3;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+.ffffff{
+  width: 100%;
+  margin-top: -60px;
+  margin-left: 20px;
+  margin-right: 20px;
+} 
+.sdcsdfcsd:focus-visible {
+  border: unset !important;
+  outline: unset !important; /* Remove focus outline when not focused by keyboard */
+}
+#mo {
+  margin-top: -80px;
+}
+
+#re {
+
+  font-family: Anek Tamil;
+  font-weight: bolder;
+  font-size: 33px;
+
+}
+
+.dce {
+  font-family: Droid Sans;
+  font-weight: bold;
+  width: 100%;
+  height: 50px;
+  background-color: #7D017D;
+  color: white;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 14px;
+
+}
+
+.uy {
+  background-color: #7D017D;
+
+}
+
+.vb {
+  height: 250px;
+  width: 550px;
+
+}
+
+#pk {
+  background-color: #430043;
+}
+
+.bv {
+  height: 360px;
+  margin-left: -40px;
+  margin-top: 10px;
+}
+
+#aq {
+  margin-top: 50px;
+  padding: 8px 8px;
+  background-color: #430043;
+  border-radius: 30px;
+  margin-left: 30px;
+
+}
+
+#con {
+  font-size: 25px;
+  margin-top: 110px;
+  color: white;
+  font-weight: bold;
+  margin-left: -18px;
+
+}
+
+.xy {
+  position: relative;
+  top: 40px;
+}
+
+.img-fluidd {
+
+  margin-top: 35px;
+}
+
+#ty {
+
+  color: white;
+  font-family: Bakbak One;
+  position: relative;
+  top: 15px;
+  left: 10px;
+  border-right: white;
+
+}
+
+.btn btn-link {
+  color: white;
+}
+
+#jk {
+  color: white;
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+
+#kj {
+  color: white;
+  position: relative;
+  top: 15px;
+  left: -5px;
+  ;
+}
+
+#i {
+  color: white;
+  position: relative;
+  top: 15px;
+  left: -18px;
+
+}
+
+.vl {
+  list-style-type: none;
+  font-family: Source Sans 3;
+  font-weight: bold;
+}
+
+.vl a {
+  font-family: Source Sans 3;
+  border-right: white;
+  /* border-left:0.2px solid rgb(184, 184, 184); */
+  font-weight: bold;
+
+  margin-left: -41px;
+}
+
+.lu {
+  list-style-type: none;
+}
+
+.lu a {
+  border-right: white;
+  font-weight: bold;
+
+  font-family: Source Sans 3;
+  margin-left: -38px;
+
+}
+
+
+#rr {
+  color: white;
+  font-family: Source Sans 3;
+  font-weight: bold;
+
+  padding-left: 50px;
+  ;
+}
+
+#hh {
+  font-family: Times New Roman;
+  font-weight: bold;
+}
+
+#vl {
+  border-left: 1px solid white;
+}
+
+.zx {
+  border-left: 1px solid white;
+  padding-left: 50px;
+  font-size: small;
+}
+
+#xc {
+  font-family: Source Sans 3;
+  font-weight: bold;
+  color: white;
+  border-left: 1px solid white;
+}
+
+#cx {
+  font-family: Source Sans 3;
+  font-weight: bold;
+  color: white;
+  border-left: 1px solid white;
+
+}
+
+#nx {
+  font-family: Source Sans 3;
+  font-weight: bold;
+  color: white;
+  border-left: 1px solid white;
+
+}
+
+.abcc {
+
+  font-family: Bakbak One;
+  color: #F4F4F4;
+  padding-left: 5px;
+  margin-top: 8px;
+
+}
+
+#jhh {
+
+  height: 34px;
+  width: 34%;
+  margin-top: 5px;
+  padding-left: 5px;
+}
+
+#jhhh {
+
+  height: 44px;
+  width: 44px;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+/* input[type=text] {
+  width: 220px;
+  box-sizing: border-box;
+ 
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #340931;
+  color:white;
+  background-image: url('./image/searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+} */
+
+.centered {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: "white";
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Three columns with equal width */
+  grid-template-rows: repeat(3, 1fr);
+  /* Two rows with equal height */
+  gap: 10px;
+  /* Gap between grid items */
+  width: 100%;
+  /* Set a width for the container */
+  height: 300px;
+  /* Set a height for the container */
+}
+
+.grid-item {
+  background-color: #eee;
+  /* Background color for each box */
+  padding: 10px;
+  /* Padding for each box */
+  text-align: center;
+  /* Center the text */
+}
+
+/* YourComponent.css */
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  /* Vertical alignment */
+  align-items: center;
+  /* Center horizontally */
+}
+
+.custom-input {
+  width: 1450px;
+  /* Adjust the width as needed */
+  height: 40px;
+  /* Adjust the height as needed */
+  border: 2px solid #E000A1;
+  background-color: white;
+  box-shadow: 0 0 2px 1px rgb(112, 112, 112);
+  border-radius: 4px;
+  /* Optional: Add rounded corners */
+  margin: 5px;
+  /* Adjust the margin between input fields as needed */
+  color: #000000;
+  /* Text color */
+  cursor: pointer;
+  /* Change cursor style to pointer */
+  padding: 5px;
+  /* Adjust padding as needed */
+  outline: none;
+  /* Remove focus outline */
+}
+
+/* App.css */
+/* .container {
+  display: flex;
+  border: 2px solid #FBE8FD;
+} */
+
+.left {
+  flex: 1;
+  padding: 20px;
+  position: relative;
+}
+
+.center {
+  flex: 1;
+  padding: 20px;
+}
+
+.right {
+  flex: 1;
+  padding: 20px;
+  background-color: #FBE8FD;
+}
+
+.icon-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.zoom-icon {
+  /* Style for the zoom icon */
+}
+
+.close-icon {
+  /* Style for the close icon */
+}
+
+.border-box {
+  /* border: 2px solid #FBE8FD; */
+  padding: 20px;
+  text-align: center;
+}
+
+#jh {
+
+  height: 60px;
+  margin-top: 15px;
+}
+
+#logo {
+  margin-left: 7px;
+  height: 40px;
+  margin-top: 4px;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.pro-sidebar {
+  transition: auto !important;
+}
+
+.pro-sidebar.collapsed {
+  transition: auto !important;
+}
+
+.ReactModal__Overlay {
+  z-index: 11111;
+}
+
+.ReactModal__Content {
+  border-radius: 15px !important;
+  overflow: hidden !important;
+}
+
+.roolloo {
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden !important;
+  margin-top: -8px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 1rem;
+  height: 40px !important;
+  position: relative !important;
+}
+
+.pagination li {
+  margin: 0 0.5rem;
+  padding: 0.55rem;
+  cursor: pointer;
+  position: relative !important;
+}
+
+.pagination li.active {
+  background-color: #fff;
+  color: #000;
+  border-radius: 0.25rem;
+}
+
+.static-image {
+  width: 2015px;
+  /* Set the desired width */
+  height: 666px;
+  /* Set the desired height */
+}

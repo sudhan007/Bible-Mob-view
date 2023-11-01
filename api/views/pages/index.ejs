@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+</head>
+<body class="container">
+
+<main>
+  <div class="jumbotron">
+    <h1>This is great</h1>
+    <form action="/admin" method="POST">
+
+        <input name="_method" type="hidden" value="PUT">
+        <input type="text" id="'text" placeholder="username" name="username">
+        <input type="password" id="'password" placeholder="coffee name" name="password">
+  
+        <button  type="submit" id="submit" >Submit</button>
+  
+     </form>
+  </div>
+</main>
+
+
+<!-- <script >
+  let click1 =async () =>{
+    let name =  document.getElementById("text");
+    let password =  document.getElementById("password");
+    console.log('zsfgvknsdfgkn sklnvk')
+
+    await fetch('http://localhost:5000/admin', {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-type': 'application/json',
+        },
+        body: JSON.stringify({
+          username: name,
+          password: password
+        })
+      })
+      .then(response => response.json())
+      .then((responseJson) => console.log(responseJson))
+      .catch(error => console.log(error))
+  }
+ 
+</script> -->
+
+
+</body>
+</html>

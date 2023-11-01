@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+ .head
+{
+    background-color: #720272;
+    color: #F2F2F2;
+    font-weight: 500;
+    
+}
+.content
+{
+    background-color: #121212;
+}
+.endtime
+{
+    color: #F5F5F5;
+    font-size: 16px;
+}
+.timeend
+{
+color: #FF9EFF;
+font-weight: 400;
+font-size: 10px;
+}
+.dash
+{
+    border: 2px dashed #FF9EFF;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.fa-plus
+{
+    color:rgba(255, 158, 255, 0.38);
+}
+
+#txt1
+{
+    font-size: 10px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    font-family:  sans-serif 3;
+}
+#txt2
+{
+    font-size: 9px;
+    color:  rgba(255, 255, 255, 0.94);
+    font-family: sans-serif 3;
+}
+#txt3
+{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 1);
+    font-family: sans-serif 3;
+}
+.cad
+{
+    background-color: rgba(114, 2, 114, 1);
+    border-radius: 10px;
+}
+.fa-clock
+{
+    color: white;
+} 
+
+
+
+
+/* popup page */
+.popmain
+{
+    border-top-left-radius:50px ;
+    border-top-right-radius: 50px;
+    background-color: 
+    rgba(255, 255, 255, 1);
+    margin-bottom: 0 !important;
+    margin-top: 100px !important;
+}
+
+.fa-circle-xmark
+{
+    font-size: 30px;
+    color: rgba(114, 2, 114, 1);
+}
+.auto
+{
+    margin: auto;
+}
+label
+{
+    font-family: 'poppins',sans-serif;
+    color: rgba(114, 2, 114, 1);
+}
+input
+{
+    font-family: 'poppins',sans-serif;
+    width: 100%;
+    padding: 10px 30px;
+    border: 0;
+    background-color: rgba(114, 2, 114, 0.1);
+    border-radius: 4px;
+}
+input:focus
+{
+    outline: none;
+}
+::placeholder
+{  
+      font-family: 'poppins',sans-serif;
+    /* color:  #720272; */
+    font-size: 12px;
+}
+.svgss
+{
+    position: relative;
+    top:33px;
+    left: 13px;
+}
+#sign
+{
+    font-family: 'poppins',sans-serif;
+font-weight: 500;
+    background-color: #720272;
+    border-radius:40px ;
+    color:  #FFFFFF;
+} 

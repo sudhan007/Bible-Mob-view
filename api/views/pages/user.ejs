@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+</head>
+<body >
+    <header>
+        <%- include('../partials/header'); %>
+    </header>
+
+    <style >
+        .card {
+            /* Add shadows to create the "card" effect */
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+        /* On mouse-over, add a deeper shadow */
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        /* Add some padding inside the card container */
+        .container {
+            padding: 2px 16px;
+        }
+    </style>
+
+    <div class="container" >
+        <main>
+        <div >
+            <h1>admin user </h1>
+            <div style="margin-top: 20px;" >
+                <div class="row">
+                    <% for (var i = 0; i < data.length; i++) { %>
+                    <div class="col-2">
+                        <div class="card">
+                            <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                            <div class="container">
+                                <h4><b>John Doe</b></h4>
+                                <p><%= data[i].phone %></p>
+                                <!-- <img style="width: 20px ; height : 20px;" src="/del.png" /> -->
+                                <form  action="/admin/user" method="POST" >
+                                    <input name="id" type="hidden" value="<%= data[i]._id %>">
+                                    <button type="submit">Delete</button>
+                                </form>
+                                <div >
+                                    <a href="/admin/user_edit?id=<%=data[i]._id%>">Edit</a>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                    <% } %>
+                </div>
+            </div>
+            
+        </div>
+        </main>
+    </div>
+
+    <footer>
+        <%- include('../partials/footer'); %>
+    </footer>
+
+</body>
+</html>

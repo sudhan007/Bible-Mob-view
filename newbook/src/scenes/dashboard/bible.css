@@ -1,0 +1,33 @@
+#mobtopbar
+{
+    display: none;
+}
+
+@media (max-width: 800px) and (min-width: 0px) 
+{
+    #webtopbar
+    {
+    display: none;
+    }
+    #mobtopbar
+{
+    display: block;
+}
+#sidebarclose
+{
+    display: none;
+}
+#imagenavi
+{
+    display: none;
+}
+#jjj
+{
+    display: none;
+}
+#bible-scroll
+{
+    display: none;
+}
+
+  } 

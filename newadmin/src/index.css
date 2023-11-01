@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.pro-sidebar{
+  transition: auto !important;
+}
+.pro-sidebar.collapsed {
+  transition: auto !important;
+}
+.ReactModal__Overlay{
+  z-index: 11111;
+}
+.ReactModal__Content{
+  border-radius: 15px !important;
+  overflow: hidden !important;
+}
+.roolloo{
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden !important;
+  margin-top: -8px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 1rem;
+  height: 40px !important;
+  position: relative !important;
+}
+
+.pagination li {
+  margin: 0 0.5rem;
+  padding: 0.55rem;
+  cursor: pointer;
+  position: relative !important;
+}
+
+.pagination li.active {
+  background-color: #fff;
+  color: #000;
+  border-radius: 0.25rem;
+} 
